@@ -1,5 +1,5 @@
 import streamlit as st
-from predict import predict_diabetes #file ko name predict_diabets fumction lai cl gareko
+from predict import predict #file ko name predict_diabets fumction lai cl gareko
 #if we import filename only then we call by using filename.function_name
 st.set_page_config(page_title='Diabetes Preidicition App')
 
