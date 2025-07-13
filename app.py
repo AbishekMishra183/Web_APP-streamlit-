@@ -12,7 +12,7 @@ glucose=st.number_input('Glucose', min_value=0 , max_value=400,value=20)
 blood_pressure=st.number_input('Blood_Pressure' , 0, 200, 0)
 dfp=st.number_input('DFP' , 0, 20, 0)
 age=st.number_input('Age',20,80,40)
-st.sidebar.header("hihiihihihihihihihihihiiih")
+st.sidebar.header("predict here !!!!")
 if st.button('Test Diabetes'): # button le k k kaam garney yah mention huna parcha
   input_data=[glucose, blood_pressure,dfp,age]
   result=predict_diabetes(input_data)
